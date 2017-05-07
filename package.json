@@ -1,0 +1,45 @@
+{
+    "name": "amethyst-theme",
+    "displayName": "Amethyst Theme",
+    "description": "A very purple dark theme based on the built-in Dark+ theme",
+    "version": "0.0.1",
+    "publisher": "eamodio",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "purple",
+        "violet",
+        "dark"
+    ],
+    "galleryBanner": {
+        "color": "#7d16bf",
+        "theme": "dark"
+    },
+    "icon": "images/icon.svg",
+    "homepage": "https://github.com/eamodio/vscode-amethyst-theme/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/eamodio/vscode-amethyst-theme/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eamodio/vscode-amethyst-theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Amethyst",
+                "uiTheme": "vs-dark",
+                "path": "./themes/amethyst-dark-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "pack": "git clean -xdf && vsce package",
+        "pub": "git clean -xdf && vsce publish"
+    }
+}
