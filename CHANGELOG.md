@@ -1,5 +1,13 @@
 ## Release Notes
+
+### 0.2.0
+> NOTE: Certain colors may only take effect on the insiders build of vscode
+- Purplizes the progress bar color
+- Changes the terminal background & foreground colors to match the editor background & foregound colors
+- Removes the border from the overview ruler
+
 ### 0.1.0
+> NOTE: Certain colors may only take effect on the insiders build of vscode
 - Purplizes the badge background & border color
 - Purplizes the bracket matching background & border color
 - Purplizes the quick pick "badge" text foreground color
