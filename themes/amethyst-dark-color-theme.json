@@ -92,8 +92,7 @@
         "terminal.foreground": "#d4d4d4",
         "titleBar.activeBackground": "#7d16bf",
         "titleBar.inactiveBackground": "#4d057b",
-        "widget.shadow": "#160024",
-        "descriptionForeground": ""
+        "widget.shadow": "#160024"
     },
     "tokenColors": [
         {
