@@ -1,6 +1,6 @@
 ## Release Notes
 
-### 0.2.0
+### 0.2.1
 > NOTE: Certain colors may only take effect on the insiders build of vscode
 - Purplizes the progress bar color
 - Changes the terminal background & foreground colors to match the editor background & foregound colors
