@@ -1,5 +1,15 @@
 ## Release Notes
 
+### 0.3.0
+> NOTE: Certain colors may only take effect on the insiders build of
+- Purplizes the suggest widget highlight foreground color
+- Removes suggest widget background transparency
+- Adds a light border to the suggest widget
+- Brightens the link foreground color
+- Brightens quick pick "badge" text foreground color
+- Increases the red in the error foreground color
+- Increases contrast of scroll bar slider background color
+
 ### 0.2.1
 > NOTE: Certain colors may only take effect on the insiders build of vscode
 - Purplizes the progress bar color
