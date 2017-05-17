@@ -1,5 +1,11 @@
 ## Release Notes
 
+### 0.3.1
+> NOTE: Certain colors may only take effect on the insiders build of
+- Purplizes and increase the contrast of the editor line number foreground color
+- Increases contrast of the code lens foreground color
+- Purplizes the quick pick highlight forground color
+
 ### 0.3.0
 > NOTE: Certain colors may only take effect on the insiders build of
 - Purplizes the suggest widget highlight foreground color
