@@ -1,13 +1,24 @@
 ## Release Notes
 
+### 0.4.0
+> NOTE: Certain colors may only take effect on the insiders build of vscode
+- Increases the contrast of the matching bracket background and border color
+- Increases the contrast and saturation of the cursor forground color
+- Increases the saturation of the link foreground color
+- Darkens the suggest widget background and border color
+- Increases the contrast and saturation of the suggest widget highlight foreground color
+- Increases the contrast and saturation of the list highlight foreground color
+- Adds a light brightening effect for the code block and block quote text background colors
+
+
 ### 0.3.1
-> NOTE: Certain colors may only take effect on the insiders build of
+> NOTE: Certain colors may only take effect on the insiders build of vscode
 - Purplizes and increase the contrast of the editor line number foreground color
 - Increases contrast of the code lens foreground color
 - Purplizes the quick pick highlight forground color
 
 ### 0.3.0
-> NOTE: Certain colors may only take effect on the insiders build of
+> NOTE: Certain colors may only take effect on the insiders build of vscode
 - Purplizes the suggest widget highlight foreground color
 - Removes suggest widget background transparency
 - Adds a light border to the suggest widget
