@@ -1,5 +1,5 @@
 code-syntax.js
-!images/icon.svg
+!images/icon.png
 images/**
 .vscode/**
 .gitignore
