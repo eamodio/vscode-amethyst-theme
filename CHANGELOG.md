@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.0] - 2017-09-30
+### Added
+- Adds text link foreground colors
+
+### Changed
+- Purplizes and brightens the peek view border color
+- Darkens the widget shadow color to allow the quick picker to pop a bit more
+
 ## [1.0.0] - 2017-06-09
 ### Added
 - Re-adds panel background color - since it was re-added to vscode
