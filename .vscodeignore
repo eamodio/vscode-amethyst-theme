@@ -1,5 +1,7 @@
-code-syntax.js
 !images/icon.png
 images/**
 .vscode/**
 .gitignore
+.eslintrc.json
+code-syntax.js
+package-lock.json

@@ -34,7 +34,7 @@
             {
                 "label": "Amethyst",
                 "uiTheme": "vs-dark",
-                "path": "./themes/amethyst-dark-color-theme.json"
+                "path": "./themes/amethyst-theme.json"
             }
         ]
     },
