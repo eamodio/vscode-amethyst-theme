@@ -1,0 +1,21 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Amethyst Dark (Higher Contrast)",
+    "type": "dark",
+    "include": "./dark-amethyst-theme.json",
+    "colors": {
+        "editor.lineHighlightBackground": "#2c0146e0",
+        "editor.lineHighlightBorder": "#2c0146",
+        "editorGroup.border": "#4d057ba0",
+        "editorMarkerNavigation.background": "#2c0146",
+        "editorSuggestWidget.background": "#2c0146",
+        "list.inactiveFocusBackground": "#2c0146",
+        "list.inactiveSelectionBackground": "#2c0146",
+        "panel.border": "#4d057ba0",
+        "peekViewResult.background": "#2c0146",
+        "peekViewEditor.background": "#2c014680",
+        "peekViewEditorGutter.background": "#2c014680",
+        "scrollbarSlider.background": "#2c0146b0",
+        "sideBar.border": "#4d057ba0"
+    }
+}

@@ -1,5 +1,5 @@
 {
-	"$schema": "vscode://schemas/color-theme",
+    "$schema": "vscode://schemas/color-theme",
     "name": "Amethyst",
     "type": "dark",
     "include": "./dark_plus.json",
