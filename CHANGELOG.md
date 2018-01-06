@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.1] - 2018-01-06
+### Changed
+- Aligns foreground colors - some more purple, others less
+- Changes input and focus borders - now more of a highlight rather than a new color
+
 ## [2.0.0] - 2018-01-05
 ### Added
 - Adds a **Dark Amethyst** theme
