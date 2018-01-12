@@ -5,11 +5,15 @@ A set of very purple dark themes, based on the built-in Dark+ theme
 
 ## Amethyst
 
-![preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview.png)
+![Amethyst preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview.png)
 
 ## Dark Amethyst
 
-![preview2](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview-dark.png)
+![Dark Amethyst preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview-dark.png)
+
+## Dark Amethyst (Higher Contrast)
+
+![Dark Amethyst (Higher Contrast) preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview-dark-contrast.png)
 
 ## Known Issues
 
