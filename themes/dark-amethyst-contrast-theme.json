@@ -15,9 +15,9 @@
         "peekViewResult.background": "#2c0146",
         "peekViewEditor.background": "#2c014680",
         "peekViewEditorGutter.background": "#2c014680",
-        "scrollbarSlider.activeBackground": "#7d16bfd0",
-        "scrollbarSlider.background": "#2c0146",
-        "scrollbarSlider.hoverBackground": "#4d057bd0",
+        "scrollbarSlider.activeBackground": "#7d16bfc0",
+        "scrollbarSlider.background": "#7d16bf60",
+        "scrollbarSlider.hoverBackground": "#7d16bf90",
         "sideBar.border": "#4d057ba0"
     }
 }

@@ -2,7 +2,7 @@
     "name": "amethyst-theme",
     "displayName": "Amethyst Themes",
     "description": "A set of very purple dark themes, based on the built-in Dark+ theme",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "publisher": "eamodio",
     "engines": {
         "vscode": "^1.19.0"

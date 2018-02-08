@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.4] - 2018-02-08
+### Changed
+- Changes the scrollbar to be semi-transparent so that decorations are still visible
+
 ## [2.0.3] - 2018-01-25
 ### Changed
 - Increases the contract of the scrollbar slider
