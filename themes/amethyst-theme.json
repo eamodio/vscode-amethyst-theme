@@ -68,7 +68,7 @@
         "list.hoverBackground": "#4d057b80",
         "list.inactiveFocusBackground": "#4d057b",
         "list.inactiveSelectionBackground": "#4d057b80",
-        "notification.background": "#4d057b",
+        "notifications.background": "#4d057b",
         "panel.background": "#25013c",
         "panel.border": "#160024",
         "panelTitle.activeBorder": "#7d16bf",

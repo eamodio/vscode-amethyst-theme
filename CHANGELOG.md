@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.5] - 2018-04-29
+### Changed
+- Minor updates to synchronize with the latest vscode colors
+
 ## [2.0.4] - 2018-02-08
 ### Changed
 - Changes the scrollbar to be semi-transparent so that decorations are still visible
