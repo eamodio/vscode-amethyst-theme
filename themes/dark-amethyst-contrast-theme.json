@@ -4,6 +4,7 @@
     "type": "dark",
     "include": "./dark-amethyst-theme.json",
     "colors": {
+        "contrastBorder": "#4d057ba0",
         "editor.lineHighlightBackground": "#2c0146e0",
         "editor.lineHighlightBorder": "#2c0146",
         "editorGroup.border": "#4d057ba0",

@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.0.6] - 2018-06-04
+### Added
+- Adds new border to the top of custom views to the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds editor unused (unnecessary) text color for variables to all themes
+- Adds editor active indent color to all themes
+- Adds invalid list item color to all themes
+
+### Changed
+- Changes inactive editor indent color to be invisible for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+
 ## [2.0.5] - 2018-04-29
 ### Changed
 - Minor updates to synchronize with the latest vscode colors
