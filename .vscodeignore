@@ -2,6 +2,6 @@
 images/**
 .vscode/**
 .gitignore
-.eslintrc.json
+.prettierrc
 code-syntax.js
 package-lock.json

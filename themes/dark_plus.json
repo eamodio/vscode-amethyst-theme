@@ -5,11 +5,7 @@
     "tokenColors": [
         {
             "name": "Function declarations",
-            "scope": [
-                "entity.name.function",
-                "support.function",
-                "support.constant.handlebars"
-            ],
+            "scope": ["entity.name.function", "support.function", "support.constant.handlebars"],
             "settings": {
                 "foreground": "#DCDCAA"
             }
@@ -73,20 +69,14 @@
         },
         {
             "name": "Variable and parameter name",
-            "scope": [
-                "variable",
-                "meta.definition.variable.name",
-                "support.variable"
-            ],
+            "scope": ["variable", "meta.definition.variable.name", "support.variable", "entity.name.variable"],
             "settings": {
                 "foreground": "#9CDCFE"
             }
         },
         {
             "name": "Object keys, TS grammar specific",
-            "scope": [
-                "meta.object-literal.key"
-            ],
+            "scope": ["meta.object-literal.key"],
             "settings": {
                 "foreground": "#9CDCFE"
             }
@@ -133,10 +123,7 @@
             }
         },
         {
-            "scope": [
-                "keyword.operator.or.regexp",
-                "keyword.control.anchor.regexp"
-            ],
+            "scope": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
             "settings": {
                 "foreground": "#DCDCAA"
             }

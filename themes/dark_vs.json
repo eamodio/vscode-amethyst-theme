@@ -4,10 +4,7 @@
     "include": "./dark_defaults.json",
     "tokenColors": [
         {
-            "scope": [
-                "meta.embedded",
-                "source.groovy.embedded"
-            ],
+            "scope": ["meta.embedded", "source.groovy.embedded"],
             "settings": {
                 "foreground": "#D4D4D4"
             }
@@ -43,9 +40,7 @@
             }
         },
         {
-            "scope": [
-                "constant.numeric"
-            ],
+            "scope": ["constant.numeric"],
             "settings": {
                 "foreground": "#b5cea8"
             }
@@ -256,9 +251,7 @@
         },
         {
             "name": "Reset JavaScript string interpolation expression",
-            "scope": [
-                "meta.template.expression"
-            ],
+            "scope": ["meta.template.expression"],
             "settings": {
                 "foreground": "#d4d4d4"
             }
@@ -314,10 +307,7 @@
             }
         },
         {
-            "scope": [
-                "punctuation.section.embedded.begin.php",
-                "punctuation.section.embedded.end.php"
-            ],
+            "scope": ["punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php"],
             "settings": {
                 "foreground": "#569cd6"
             }

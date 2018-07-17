@@ -4,7 +4,7 @@
     "type": "dark",
     "include": "./dark_plus.json",
     "colors": {
-        "activityBar.background":  "#120024",
+        "activityBar.background": "#120024",
         "activityBar.border": "#120024",
         "activityBar.dropBackground": "#9039c7",
         "activityBar.foreground": "#e9d9f280",
@@ -33,16 +33,15 @@
         "editor.rangeHighlightBackground": "#4d057ba0",
         "editor.selectionBackground": "#4d057b",
         "editor.selectionHighlightBackground": "#4d057be0",
-        "editorUnnecessary.foreground": "#ede4f160",
         "editor.wordHighlightBackground": "#4d057b90",
         "editor.wordHighlightStrongBackground": "#4d057bb0",
         "editorBracketMatch.background": "#4d057b",
         "editorBracketMatch.border": "#7d16bfb0",
         "editorCodeLens.foreground": "#9e85add0",
         "editorCursor.foreground": "#b133ff",
-        "editorGroup.background": "#4d057b",
         "editorGroup.border": "#4d057b60",
         "editorGroup.dropBackground": "#9039c750",
+        "editorGroup.emptyBackground": "#4d057b",
         "editorGroupHeader.noTabsBackground": "#120024",
         "editorGroupHeader.tabsBackground": "#120024",
         "editorGroupHeader.tabsBorder": "#120024",
@@ -83,6 +82,11 @@
         "list.inactiveSelectionBackground": "#25013c",
         "list.inactiveSelectionForeground": "#ede4f1",
         "list.invalidItemForeground": "#e86969",
+        "menu.background": "#17002e",
+        "menubar.selectionBackground": "#4d057b80",
+        "menubar.selectionBorder": "#4d057b80",
+        "menubar.selectionForeground": "#ede4f1",
+        "menu.selectionBackground": "#4d057b80",
         "notifications.background": "#450470",
         "panel.background": "#120024",
         "panel.border": "#4d057b60",
@@ -136,6 +140,6 @@
         "textLink.foreground": "#ba7dd9",
         "titleBar.activeBackground": "#120024",
         "titleBar.inactiveBackground": "#120024",
-        "widget.shadow": "#000000a0"
+        "widget.shadow": "#7d16bf10"
     }
 }
