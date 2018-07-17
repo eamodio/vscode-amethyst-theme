@@ -41,7 +41,7 @@
         "editorCursor.foreground": "#b133ff",
         "editorGroup.border": "#4d057b60",
         "editorGroup.dropBackground": "#9039c750",
-        "editorGroup.emptyBackground": "#4d057b",
+        "editorGroup.emptyBackground": "#120024",
         "editorGroupHeader.noTabsBackground": "#120024",
         "editorGroupHeader.tabsBackground": "#120024",
         "editorGroupHeader.tabsBorder": "#120024",
