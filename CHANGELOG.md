@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.1.0] - 2018-07-26
+
+### Added
+
+- Adds support for the new settings editor
+- Adds a new background on the status bar while debugging for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds a slightly brightened background for dropdowns & inputs for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds a light border around dropdowns for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+
 ## [2.0.8] - 2018-07-17
 
 ### Fixed
