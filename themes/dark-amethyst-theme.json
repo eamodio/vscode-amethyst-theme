@@ -122,8 +122,6 @@
         "settings.numberInputBorder": "#ede4f125",
         "settings.textInputBackground": "#17002e",
         "settings.textInputBorder": "#ede4f125",
-        "settings.inactiveSelectedItemBorder": "#120024",
-        "settings.modifiedItemForeground": "#ba74dc",
         "sideBar.background": "#120024",
         "sideBar.border": "#4d057b60",
         "sideBar.foreground": "#ede4f1b0",
