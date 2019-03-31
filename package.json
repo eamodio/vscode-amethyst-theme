@@ -2,7 +2,7 @@
     "name": "amethyst-theme",
     "displayName": "Amethyst Themes",
     "description": "A set of very purple dark themes, based on the built-in Dark+ theme",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "publisher": "eamodio",
     "engines": {
         "vscode": "^1.26.0"
@@ -49,7 +49,10 @@
         ]
     },
     "scripts": {
-        "pack": "git clean -xdf && vsce package",
-        "pub": "git clean -xdf && vsce publish"
+        "pack": "git clean -df && vsce package",
+        "pub": "git clean -df && vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "1.59.0"
     }
 }
