@@ -16,6 +16,7 @@
         "list.hoverForeground": "#ede4f1bf",
         "list.inactiveFocusBackground": "#2c0146",
         "list.inactiveSelectionBackground": "#2c0146",
+        "menu.foreground": "#e9d9f2e6",
         "panel.border": "#4d057abf",
         "panelTitle.inactiveForeground": "#ede4f160",
         "panelTitle.activeForeground": "#ede4f1e0",
