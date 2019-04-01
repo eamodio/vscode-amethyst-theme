@@ -4,11 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.0] - 2019-04-01
+
+### Changed
+
+- Purplizes the terminal cursor and statusbar item colors in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Increases the contrast of activity bar and terminal in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Increases the contrast of inactive selection in the **Dark Amethyst (Higher Contrast)** theme
+- Decreases the contrast of menus in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** theme
+
 ## [2.2.0] - 2019-03-31
 
 ### Changed
 
-- Increases the contrast of the **Dark Amethyst (Higher Contrast)** theme
+- Increases the overall contrast of the **Dark Amethyst (Higher Contrast)** theme
 
 ## [2.1.1] - 2018-08-16
 
