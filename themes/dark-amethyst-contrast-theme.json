@@ -4,9 +4,10 @@
     "type": "dark",
     "include": "./dark-amethyst-theme.json",
     "colors": {
-        "activityBar.foreground": "#e8d9f1bf",
-        "activityBar.inactiveForeground": "#e8d9f159",
+        "activityBar.foreground": "#e9d9f2d9",
+        "activityBar.inactiveForeground": "#e9d9f280",
         "contrastBorder": "#4d057abf",
+        "editor.inactiveSelectionBackground": "#4d057ba6",
         "editor.lineHighlightBackground": "#2c0146e0",
         "editor.lineHighlightBorder": "#2c0146",
         "editorGroup.border": "#4d057abf",
@@ -28,12 +29,15 @@
         "sideBar.foreground": "#ede4f1cc",
         "sideBarSectionHeader.foreground": "#ede4f1f2",
         "sideBarTitle.foreground": "#ede4f1f2",
-        "statusBar.foreground": "#e9d9f2",
-        "statusBar.debuggingForeground": "#e9d9f2",
+        "statusBar.foreground": "#e9d9f2bf",
+        "statusBar.debuggingForeground": "#e9d9f2cc",
+        "statusBarItem.activeBackground": "#4d057bcc",
+        "statusBarItem.hoverBackground": "#4d057ba6",
+        "statusBarItem.prominentBackground": "#4d057bf3",
+        "statusBarItem.prominentHoverBackground": "#4d057b",
         "tab.activeForeground": "#ffffff",
         "tab.inactiveForeground": "#ffffff90",
         "tab.unfocusedActiveForeground": "#ffffff90",
-        "tab.unfocusedInactiveForeground": "#ffffff75",
-        "terminal.foreground": "#ede4f1"
+        "tab.unfocusedInactiveForeground": "#ffffff75"
     }
 }
