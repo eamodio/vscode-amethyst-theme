@@ -53,6 +53,6 @@
         "pub": "git clean -df && vsce publish"
     },
     "devDependencies": {
-        "vsce": "1.59.0"
+        "vsce": "1.68.0"
     }
 }

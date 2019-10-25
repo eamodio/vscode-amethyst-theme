@@ -1,7 +1,14 @@
+.github/**
+.vscode/**
 !images/icon.png
 images/**
-.vscode/**
+node_modules/**
+.gitattributes
 .gitignore
+.gitignore-revs
 .prettierrc
+.yarnrc
+CODE_OF_CONDUCT.md
 code-syntax.js
-package-lock.json
+CONTRIBUTING.md
+yarn.lock
