@@ -4,21 +4,36 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.5.0] - 2019-10-25
+
+### Added
+
+- Adds new window border color in the **Amethyst** theme
+- Adds new active activity bar border color in the **Amethyst** theme
+- Adds new menu border color in the **Amethyst** theme
+- Adds new menu separator color in the **Amethyst** theme
+- Adds new quick pick menu background color in the **Amethyst** theme
+- Adds new remote status bar item colors in all the themes
+
+### Changed
+
+- Changes shadow color to be less purple & prominent in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+
 ## [2.4.0] - 2019-10-25
 
 ### Added
 
-- Adds new window border color for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds new active activity bar border color for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds new menu border color for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds new menu separator color for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds new quick pick menu background color for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds new window border color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds new active activity bar border color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds new menu border color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds new menu separator color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds new quick pick menu background color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
 
 ## [2.3.0] - 2019-04-01
 
 ### Changed
 
-- Purplizes the terminal cursor and statusbar item colors in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Purplizes the terminal cursor and status bar item colors in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
 - Increases the contrast of activity bar and terminal in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
 - Increases the contrast of inactive selection in the **Dark Amethyst (Higher Contrast)** theme
 - Decreases the contrast of menus in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** theme
