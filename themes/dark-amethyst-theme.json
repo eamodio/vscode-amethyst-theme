@@ -4,6 +4,7 @@
 	"type": "dark",
 	"include": "./dark_plus.json",
 	"colors": {
+		"activityBar.activeBorder": "#e9d9f299",
 		"activityBar.background": "#120024",
 		"activityBar.border": "#120024",
 		"activityBar.dropBackground": "#9039c7",
@@ -88,9 +89,11 @@
 		"list.inactiveSelectionForeground": "#ede4f1",
 		"list.invalidItemForeground": "#e86969",
 		"menu.background": "#17002e",
+		"menu.border": "#4d057b60",
 		"menu.foreground": "#e9d9f2cc",
 		"menu.selectionBackground": "#4d057b80",
 		"menu.selectionForeground": "#e9d9f2",
+		"menu.separatorBackground": "#4d057a",
 		"menubar.selectionBackground": "#4d057b80",
 		"menubar.selectionBorder": "#4d057b80",
 		"menubar.selectionForeground": "#e9d9f2",
@@ -111,6 +114,7 @@
 		"pickerGroup.border": "#350354",
 		"pickerGroup.foreground": "#b884d2",
 		"progressBar.background": "#9039c7",
+		"quickInput.background": "#17002e",
 		"scrollbar.shadow": "#120024",
 		"scrollbarSlider.activeBackground": "#7d16bfa0",
 		"scrollbarSlider.background": "#7d16bf40",
@@ -163,6 +167,8 @@
 		"textLink.foreground": "#ba7dd9",
 		"titleBar.activeBackground": "#120024",
 		"titleBar.inactiveBackground": "#120024",
-		"widget.shadow": "#7d16bf10"
+		"widget.shadow": "#7d16bf10",
+		"window.activeBorder": "#270347",
+		"window.inactiveBorder": "#270347"
 	}
 }

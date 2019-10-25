@@ -32,11 +32,6 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Amethyst",
-				"uiTheme": "vs-dark",
-				"path": "./themes/amethyst-theme.json"
-			},
-			{
 				"label": "Amethyst Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-amethyst-theme.json"
@@ -45,6 +40,11 @@
 				"label": "Amethyst Dark (Higher Contrast)",
 				"uiTheme": "vs-dark",
 				"path": "./themes/dark-amethyst-contrast-theme.json"
+			},
+			{
+				"label": "Amethyst",
+				"uiTheme": "vs-dark",
+				"path": "./themes/amethyst-theme.json"
 			}
 		]
 	},

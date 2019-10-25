@@ -4,6 +4,7 @@
 	"type": "dark",
 	"include": "./dark-amethyst-theme.json",
 	"colors": {
+		"activityBar.activeBorder": "#e9d9f2d9",
 		"activityBar.foreground": "#e9d9f2d9",
 		"activityBar.inactiveForeground": "#e9d9f280",
 		"contrastBorder": "#4d057abf",
@@ -16,7 +17,9 @@
 		"list.hoverForeground": "#ede4f1bf",
 		"list.inactiveFocusBackground": "#2c0146",
 		"list.inactiveSelectionBackground": "#2c0146",
+		"menu.border": "#4d057a80",
 		"menu.foreground": "#e9d9f2e6",
+		"menu.separatorBackground": "#520A7F",
 		"panel.border": "#4d057abf",
 		"panelTitle.inactiveForeground": "#ede4f160",
 		"panelTitle.activeForeground": "#ede4f1e0",
@@ -39,6 +42,8 @@
 		"tab.activeForeground": "#ffffff",
 		"tab.inactiveForeground": "#ffffff90",
 		"tab.unfocusedActiveForeground": "#ffffff90",
-		"tab.unfocusedInactiveForeground": "#ffffff75"
+		"tab.unfocusedInactiveForeground": "#ffffff75",
+		"window.activeBorder": "#3c0666",
+		"window.inactiveBorder": "#3c0666"
 	}
 }
