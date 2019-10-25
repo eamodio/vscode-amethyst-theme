@@ -1,4 +1,5 @@
 [![](https://vsmarketplacebadge.apphb.com/version/eamodio.amethyst-theme.svg)](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) [![](https://vsmarketplacebadge.apphb.com/installs/eamodio.amethyst-theme.svg)](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme) [![](https://vsmarketplacebadge.apphb.com/rating/eamodio.amethyst-theme.svg)](https://marketplace.visualstudio.com/items?itemName=eamodio.amethyst-theme)
+
 # Amethyst Themes
 
 A set of very purple dark themes, based on the built-in Dark+ theme

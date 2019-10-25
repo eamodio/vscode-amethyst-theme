@@ -1,58 +1,60 @@
 {
-    "name": "amethyst-theme",
-    "displayName": "Amethyst Themes",
-    "description": "A set of very purple dark themes, based on the built-in Dark+ theme",
-    "version": "2.3.0",
-    "publisher": "eamodio",
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "license": "SEE LICENSE IN LICENSE",
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "purple",
-        "violet",
-        "dark"
-    ],
-    "galleryBanner": {
-        "color": "#7d16bf",
-        "theme": "dark"
-    },
-    "icon": "images/icon.png",
-    "homepage": "https://github.com/eamodio/vscode-amethyst-theme/blob/master/README.md",
-    "bugs": {
-        "url": "https://github.com/eamodio/vscode-amethyst-theme/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/eamodio/vscode-amethyst-theme.git"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Amethyst",
-                "uiTheme": "vs-dark",
-                "path": "./themes/amethyst-theme.json"
-            },
-            {
-                "label": "Amethyst Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark-amethyst-theme.json"
-            },
-            {
-                "label": "Amethyst Dark (Higher Contrast)",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark-amethyst-contrast-theme.json"
-            }
-        ]
-    },
-    "scripts": {
-        "pack": "git clean -df && vsce package",
-        "pub": "git clean -df && vsce publish"
-    },
-    "devDependencies": {
-        "vsce": "1.68.0"
-    }
+	"name": "amethyst-theme",
+	"displayName": "Amethyst Themes",
+	"description": "A set of very purple dark themes, based on the built-in Dark+ theme",
+	"version": "2.3.0",
+	"publisher": "eamodio",
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"purple",
+		"violet",
+		"dark"
+	],
+	"galleryBanner": {
+		"color": "#7d16bf",
+		"theme": "dark"
+	},
+	"icon": "images/icon.png",
+	"homepage": "https://github.com/eamodio/vscode-amethyst-theme/blob/master/README.md",
+	"bugs": {
+		"url": "https://github.com/eamodio/vscode-amethyst-theme/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/eamodio/vscode-amethyst-theme.git"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Amethyst",
+				"uiTheme": "vs-dark",
+				"path": "./themes/amethyst-theme.json"
+			},
+			{
+				"label": "Amethyst Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-amethyst-theme.json"
+			},
+			{
+				"label": "Amethyst Dark (Higher Contrast)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-amethyst-contrast-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"pack": "git clean -df && vsce package",
+		"pretty": "prettier --config .prettierrc --loglevel warn --write \"./**/*.{js,md,json}\"",
+		"pub": "git clean -df && vsce publish"
+	},
+	"devDependencies": {
+		"prettier": "1.18.2",
+		"vsce": "1.68.0"
+	}
 }
