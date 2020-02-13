@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.6.0] - 2020-02-12
+
+### Added
+
+- Adds purplization to the tree view filter/search widget in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds a new indent guide color for the tree views in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+
+### Changed
+
+- Changes list selection color to make it easier to see unselected but focused items in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+
 ## [2.5.0] - 2019-10-25
 
 ### Added
