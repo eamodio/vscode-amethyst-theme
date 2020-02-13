@@ -4,7 +4,10 @@
 	"include": "./dark_defaults.json",
 	"tokenColors": [
 		{
-			"scope": ["meta.embedded", "source.groovy.embedded"],
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
 			"settings": {
 				"foreground": "#D4D4D4"
 			}
@@ -167,7 +170,10 @@
 			}
 		},
 		{
-			"scope": ["meta.preprocessor"],
+			"scope": [
+				"meta.preprocessor",
+				"entity.name.function.preprocessor"
+			],
 			"settings": {
 				"foreground": "#569cd6"
 			}
@@ -209,13 +215,20 @@
 			}
 		},
 		{
-			"scope": ["storage.modifier", "keyword.operator.noexcept"],
+			"scope": [
+				"storage.modifier",
+				"keyword.operator.noexcept"
+			],
 			"settings": {
 				"foreground": "#569cd6"
 			}
 		},
 		{
-			"scope": ["string", "entity.name.operator.custom-literal.string"],
+			"scope": [
+				"string",
+				"entity.name.operator.custom-literal.string",
+				"meta.embedded.assembly"
+			],
 			"settings": {
 				"foreground": "#ce9178"
 			}
@@ -251,7 +264,9 @@
 		},
 		{
 			"name": "Reset JavaScript string interpolation expression",
-			"scope": ["meta.template.expression"],
+			"scope": [
+				"meta.template.expression"
+			],
 			"settings": {
 				"foreground": "#d4d4d4"
 			}
@@ -293,6 +308,7 @@
 				"keyword.operator.expression",
 				"keyword.operator.cast",
 				"keyword.operator.sizeof",
+				"keyword.operator.alignof",
 				"keyword.operator.typeid",
 				"keyword.operator.alignas",
 				"keyword.operator.instanceof",
@@ -310,7 +326,10 @@
 			}
 		},
 		{
-			"scope": ["punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php"],
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
+			],
 			"settings": {
 				"foreground": "#569cd6"
 			}

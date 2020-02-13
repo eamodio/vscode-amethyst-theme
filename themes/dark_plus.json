@@ -9,7 +9,8 @@
 				"entity.name.function",
 				"support.function",
 				"support.constant.handlebars",
-				"source.powershell variable.other.member"
+				"source.powershell variable.other.member",
+				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
 				"foreground": "#DCDCAA"
@@ -86,14 +87,21 @@
 		},
 		{
 			"name": "Variable and parameter name",
-			"scope": ["variable", "meta.definition.variable.name", "support.variable", "entity.name.variable"],
+			"scope": [
+				"variable",
+				"meta.definition.variable.name",
+				"support.variable",
+				"entity.name.variable"
+			],
 			"settings": {
 				"foreground": "#9CDCFE"
 			}
 		},
 		{
 			"name": "Object keys, TS grammar specific",
-			"scope": ["meta.object-literal.key"],
+			"scope": [
+				"meta.object-literal.key"
+			],
 			"settings": {
 				"foreground": "#9CDCFE"
 			}
@@ -140,7 +148,10 @@
 			}
 		},
 		{
-			"scope": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
+			"scope": [
+				"keyword.operator.or.regexp",
+				"keyword.control.anchor.regexp"
+			],
 			"settings": {
 				"foreground": "#DCDCAA"
 			}

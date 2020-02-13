@@ -12,8 +12,10 @@
 		"editor.lineHighlightBackground": "#2c0146e0",
 		"editor.lineHighlightBorder": "#2c0146",
 		"editorGroup.border": "#4d057abf",
+		"editorIndentGuide.activeBackground": "#9e85ad42",
 		"editorMarkerNavigation.background": "#2c0146",
 		"editorSuggestWidget.background": "#2c0146",
+		"editorWhitespace.foreground": "#9e85ad42",
 		"list.hoverForeground": "#ede4f1bf",
 		"list.inactiveFocusBackground": "#2c0146",
 		"list.inactiveSelectionBackground": "#2c0146",
@@ -43,6 +45,7 @@
 		"tab.inactiveForeground": "#ffffff90",
 		"tab.unfocusedActiveForeground": "#ffffff90",
 		"tab.unfocusedInactiveForeground": "#ffffff75",
+		"tree.indentGuidesStroke": "#9e85ad42",
 		"window.activeBorder": "#3c0666",
 		"window.inactiveBorder": "#3c0666"
 	}
