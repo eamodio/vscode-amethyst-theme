@@ -32,19 +32,22 @@
 	"contributes": {
 		"themes": [
 			{
+				"id": "amethyst-dark",
 				"label": "Amethyst Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-amethyst-theme.json"
+				"path": "./themes/amethyst-dark-theme.json",
+				"uiTheme": "vs-dark"
 			},
 			{
+				"id": "amethyst-dark-hc",
 				"label": "Amethyst Dark (Higher Contrast)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dark-amethyst-contrast-theme.json"
+				"path": "./themes/amethyst-dark-hc-theme.json",
+				"uiTheme": "vs-dark"
 			},
 			{
+				"id": "amethyst",
 				"label": "Amethyst",
-				"uiTheme": "vs-dark",
-				"path": "./themes/amethyst-theme.json"
+				"path": "./themes/amethyst-theme.json",
+				"uiTheme": "vs-dark"
 			}
 		]
 	},
@@ -54,7 +57,7 @@
 		"pub": "git clean -df && vsce publish"
 	},
 	"devDependencies": {
-		"prettier": "1.19.1",
-		"vsce": "1.73.0"
+		"prettier": "2.0.2",
+		"vsce": "1.74.0"
 	}
 }
