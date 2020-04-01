@@ -56,8 +56,7 @@ yarn run pack
 
 1. Open the `vscode-amethyst-theme` folder
 2. Ensure the required [dependencies](#dependencies) are installed
-3. Start the [`watch`](#watch) task
-4. Choose the `Launch Theme` launch configuration from the launch dropdown in the Debug viewlet and press `F5`.
+3. Choose the `Launch Theme` launch configuration from the launch dropdown in the Debug viewlet and press `F5`.
 
 ## Submitting a Pull Request
 
