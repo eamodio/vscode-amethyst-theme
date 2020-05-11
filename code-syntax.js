@@ -6,6 +6,6 @@ function func(param) {
 	}
 	return {
 		text: text,
-		boolean: false
+		boolean: false,
 	};
 }

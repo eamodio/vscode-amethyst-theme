@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.0] - 2020-05-11
+
+### Changed
+
+- Significant refinement of color usage and consolidation of unique colors
+
 ## [2.6.0] - 2020-02-12
 
 ### Added

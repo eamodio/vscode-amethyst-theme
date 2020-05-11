@@ -2,10 +2,10 @@
 	"name": "amethyst-theme",
 	"displayName": "Amethyst Themes",
 	"description": "A set of very purple dark themes, based on the built-in Dark+ theme",
-	"version": "2.6.0",
+	"version": "3.0.0",
 	"publisher": "eamodio",
 	"engines": {
-		"vscode": "^1.26.0"
+		"vscode": "^1.45.0"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"categories": [
@@ -32,21 +32,18 @@
 	"contributes": {
 		"themes": [
 			{
-				"id": "amethyst-dark",
 				"label": "Amethyst Dark",
-				"path": "./themes/amethyst-dark-theme.json",
+				"path": "./themes/amethyst-dark-color-theme.json",
 				"uiTheme": "vs-dark"
 			},
 			{
-				"id": "amethyst-dark-hc",
 				"label": "Amethyst Dark (Higher Contrast)",
-				"path": "./themes/amethyst-dark-hc-theme.json",
+				"path": "./themes/amethyst-dark-hc-color-theme.json",
 				"uiTheme": "vs-dark"
 			},
 			{
-				"id": "amethyst",
 				"label": "Amethyst",
-				"path": "./themes/amethyst-theme.json",
+				"path": "./themes/amethyst-color-theme.json",
 				"uiTheme": "vs-dark"
 			}
 		]
@@ -57,7 +54,7 @@
 		"pub": "git clean -df && vsce publish"
 	},
 	"devDependencies": {
-		"prettier": "2.0.2",
-		"vsce": "1.74.0"
+		"prettier": "2.0.5",
+		"vsce": "1.75.0"
 	}
 }
