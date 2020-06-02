@@ -3,6 +3,16 @@
 	"name": "Amethyst Dark",
 	"type": "dark",
 	"include": "./dark_plus.json",
+	"semanticHighlighting": true,
+	"tokenColors": [
+		{
+			"name": "Constants and enums",
+			"scope": ["variable.other.constant", "variable.other.enummember"],
+			"settings": {
+				"foreground": "#bae5fd"
+			}
+		}
+	],
 	"colors": {
 		"activityBar.activeBorder": "#b133ffc0",
 		"activityBar.background": "#120024",
@@ -24,7 +34,7 @@
 		"diffEditor.insertedTextBackground": "#00ff0028",
 		"diffEditor.removedTextBackground": "#ff000028",
 		"dropdown.background": "#17002e",
-		"dropdown.border": "#e9d9f220",
+		"dropdown.border": "#e9d9f216",
 		"dropdown.foreground": "#e9d9f2",
 		"dropdown.listBackground": "#17002e",
 		"editor.background": "#120024",
@@ -76,7 +86,7 @@
 		"focusBorder": "#e9d9f220",
 		"foreground": "#e9d9f2",
 		"input.background": "#17002e",
-		"input.border": "#e9d9f220",
+		"input.border": "#e9d9f216",
 		"input.foreground": "#e9d9f2",
 		"input.placeholderForeground": "#e9d9f250",
 		"inputOption.activeBorder": "#e9d9f252",
@@ -94,8 +104,8 @@
 		"list.inactiveSelectionBackground": "#25013c",
 		"list.inactiveSelectionForeground": "#e9d9f2",
 		"list.invalidItemForeground": "#e86969",
-		"listFilterWidget.outline": "#7d16bf",
-		"listFilterWidget.background": "#7d16bfb0",
+		"listFilterWidget.outline": "#7d16bf70",
+		"listFilterWidget.background": "#4d057b",
 		"listFilterWidget.noMatchesOutline": "#e86969",
 		"menu.background": "#17002e",
 		"menu.border": "#4d057b60",
