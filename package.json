@@ -32,14 +32,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Amethyst Light",
-				"uiTheme": "vs",
-				"path": "./themes/light-amethyst-theme.json"
-			},
-			{
 				"label": "Amethyst Dark",
 				"path": "./themes/amethyst-dark-color-theme.json",
 				"uiTheme": "vs-dark"
+			},
+			{
+				"label": "Amethyst Light",
+				"uiTheme": "vs",
+				"path": "./themes/amethyst-light-color-theme.json"
 			},
 			{
 				"label": "Amethyst Dark (Higher Contrast)",
