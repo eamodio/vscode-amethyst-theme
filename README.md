@@ -6,7 +6,7 @@ A set of purple light and dark themes
 
 ## Amethyst Dark
 
-![Amethyst Dark preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst1-theme/master/images/preview-dark.png)
+![Amethyst Dark preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview-dark.png)
 
 ## Amethyst Light
 
