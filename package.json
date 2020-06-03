@@ -1,8 +1,8 @@
 {
 	"name": "amethyst-theme",
 	"displayName": "Amethyst Themes",
-	"description": "A set of very purple dark themes, based on the built-in Dark+ theme",
-	"version": "3.0.1",
+	"description": "A set of purple light and dark themes",
+	"version": "4.0.0",
 	"publisher": "eamodio",
 	"engines": {
 		"vscode": "^1.45.0"
@@ -12,9 +12,11 @@
 		"Themes"
 	],
 	"keywords": [
+		"theme",
 		"purple",
 		"violet",
-		"dark"
+		"dark",
+		"light"
 	],
 	"galleryBanner": {
 		"color": "#7d16bf",

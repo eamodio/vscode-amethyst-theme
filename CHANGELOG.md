@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.0.0] - 2020-06-03
+
+### Added
+
+- Adds an **Amethyst Light** theme
+
+### Changed
+
+- Refines the contrast and colors of the **Amethyst Dark (Higher Contrast)** theme
+
+### Fixed
+
+- Fixes the **Amethyst Dark (Higher Contrast)** theme
+
 ## [3.0.0] - 2020-05-11
 
 ### Changed
@@ -14,12 +28,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Added
 
-- Adds purplization to the tree view filter/search widget in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds a new indent guide color for the tree views in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds purplization to the tree view filter/search widget in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Adds a new indent guide color for the tree views in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
 
 ### Changed
 
-- Changes list selection color to make it easier to see unselected but focused items in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Changes list selection color to make it easier to see unselected but focused items in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
 
 ## [2.5.0] - 2019-10-25
 
@@ -34,32 +48,32 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Changed
 
-- Changes shadow color to be less purple & prominent in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Changes shadow color to be less purple & prominent in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
 
 ## [2.4.0] - 2019-10-25
 
 ### Added
 
-- Adds new window border color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds new active activity bar border color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds new menu border color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds new menu separator color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds new quick pick menu background color in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds new window border color in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Adds new active activity bar border color in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Adds new menu border color in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Adds new menu separator color in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Adds new quick pick menu background color in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
 
 ## [2.3.0] - 2019-04-01
 
 ### Changed
 
-- Purplizes the terminal cursor and status bar item colors in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Increases the contrast of activity bar and terminal in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Increases the contrast of inactive selection in the **Dark Amethyst (Higher Contrast)** theme
-- Decreases the contrast of menus in the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** theme
+- Purplizes the terminal cursor and status bar item colors in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Increases the contrast of activity bar and terminal in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Increases the contrast of inactive selection in the **Amethyst Dark (Higher Contrast)** theme
+- Decreases the contrast of menus in the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** theme
 
 ## [2.2.0] - 2019-03-31
 
 ### Changed
 
-- Increases the overall contrast of the **Dark Amethyst (Higher Contrast)** theme
+- Increases the overall contrast of the **Amethyst Dark (Higher Contrast)** theme
 
 ## [2.1.1] - 2018-08-16
 
@@ -76,9 +90,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 
 - Adds support for the new settings editor
-- Adds a new background on the status bar while debugging for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds a slightly brightened background for dropdowns & inputs for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
-- Adds a light border around dropdowns for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds a new background on the status bar while debugging for the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Adds a slightly brightened background for dropdowns & inputs for the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Adds a light border around dropdowns for the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
 
 ## [2.0.8] - 2018-07-17
 
@@ -94,20 +108,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Changed
 
-- Changes the widget shadow color to be brighter for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Changes the widget shadow color to be brighter for the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
 
 ## [2.0.6] - 2018-06-04
 
 ### Added
 
-- Adds new border to the top of custom views to the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Adds new border to the top of custom views to the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
 - Adds editor unused (unnecessary) text color for variables to all themes
 - Adds editor active indent color to all themes
 - Adds invalid list item color to all themes
 
 ### Changed
 
-- Changes inactive editor indent color to be invisible for the **Dark Amethyst** and **Dark Amethyst (Higher Contrast)** themes
+- Changes inactive editor indent color to be invisible for the **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
 
 ## [2.0.5] - 2018-04-29
 
@@ -131,7 +145,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Added
 
-- Adds **Dark Amethyst (Higher Contrast)** to README
+- Adds **Amethyst Dark (Higher Contrast)** to README
 
 ### Changed
 
@@ -148,8 +162,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### Added
 
-- Adds a **Dark Amethyst** theme
-- Adds a **Dark Amethyst (Higher Contrast)** theme
+- Adds an **Amethyst Dark** theme
+- Adds an **Amethyst Dark (Higher Contrast)** theme
 
 ## [1.1.0] - 2017-09-30
 
