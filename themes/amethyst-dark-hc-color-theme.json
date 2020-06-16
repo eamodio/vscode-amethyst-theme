@@ -90,7 +90,7 @@
 		"notificationCenterHeader.background": "#2f014b",
 		"notificationCenterHeader.foreground": "#f2e8f7d0",
 		"notifications.background": "#2f014b",
-		"notifications.border": "#ff0000",
+		"notifications.border": "#5a068e60",
 		"notifications.foreground": "#f2e8f7d0",
 		"notificationToast.border": "#5a068e80",
 		"panel.border": "#5a068e60",

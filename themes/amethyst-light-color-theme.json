@@ -123,7 +123,7 @@
 		"notificationCenterHeader.foreground": "#090012d0",
 		"notificationLink.foreground": "#7d16bf",
 		"notifications.background": "#eacffc",
-		"notifications.border": "#ff0000",
+		"notifications.border": "#d297f860",
 		"notifications.foreground": "#090012d0",
 		"notificationToast.border": "#d297f880",
 		"panel.background": "#edddff",
