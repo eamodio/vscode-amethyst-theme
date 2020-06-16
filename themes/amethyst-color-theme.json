@@ -98,6 +98,7 @@
 		"notifications.background": "#4d057b",
 		"panel.background": "#25013c",
 		"panel.border": "#160024",
+		"panel.dropBorder": "#9039c7",
 		"panelTitle.activeBorder": "#7d16bf",
 		"panelTitle.inactiveForeground": "#e7e7e750",
 		"panelTitle.activeForeground": "#e7e7e7",

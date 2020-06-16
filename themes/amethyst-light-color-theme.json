@@ -128,6 +128,7 @@
 		"notificationToast.border": "#d297f880",
 		"panel.background": "#edddff",
 		"panel.border": "#d297f860",
+		"panel.dropBorder": "#9039c7",
 		"panelTitle.activeBorder": "#b133ff80",
 		"panelTitle.inactiveForeground": "#09001250",
 		"panelTitle.activeForeground": "#090012c0",
