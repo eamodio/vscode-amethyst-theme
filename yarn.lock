@@ -3,9 +3,9 @@
 
 
 "@types/node@*":
-  version "13.13.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.5.tgz#96ec3b0afafd64a4ccea9107b75bf8489f0e5765"
-  integrity sha512-3ySmiBYJPqgjiHA7oEaIo2Rzz0HrOZ7yrNO5HWyaE5q0lQ3BppDZ3N53Miz8bw2I7gh1/zir2MGVZBvpb1zq9g==
+  version "14.0.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.13.tgz#ee1128e881b874c371374c1f72201893616417c9"
+  integrity sha512-rouEWBImiRaSJsVA+ITTFM6ZxibuAlTuNOCyxVbwreu6k6+ujs7DfnU9o+PShFhET78pMBl3eH+AGSI5eOTkPA==
 
 ansi-styles@^3.2.1:
   version "3.2.1"
@@ -172,9 +172,9 @@ entities@^1.1.1, entities@~1.1.1:
   integrity sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==
 
 entities@^2.0.0, entities@~2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.2.tgz#ac74db0bba8d33808bbf36809c3a5c3683531436"
-  integrity sha512-dmD3AvJQBUjKpcNkoqr+x+IF0SdRtPz9Vk0uTy4yWqga9ibB6s4v++QFWNohjiUGoMlF552ZvNyXDxz5iW0qmw==
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-2.0.3.tgz#5c487e5742ab93c15abb5da22759b8590ec03b7f"
+  integrity sha512-MyoZ0jgnLvB2X3Lg5HqpFmn1kybDiIfEQmKzTb5apr51Rb+T3KdmMiqa70T+bhGnyv7bQ6WMj2QMHpGMmlrUYQ==
 
 escape-string-regexp@^1.0.5:
   version "1.0.5"
@@ -436,10 +436,10 @@ util-deprecate@^1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vsce@1.75.0:
-  version "1.75.0"
-  resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.75.0.tgz#1207e12ca632cd41ac66c33d23c3a09d74a75525"
-  integrity sha512-qyAQTmolxKWc9bV1z0yBTSH4WEIWhDueBJMKB0GUFD6lM4MiaU1zJ9BtzekUORZu094YeNSKz0RmVVuxfqPq0g==
+vsce@1.77.0:
+  version "1.77.0"
+  resolved "https://registry.yarnpkg.com/vsce/-/vsce-1.77.0.tgz#21364d3e63095b2f54e0f185445e8ff6ab614602"
+  integrity sha512-8vOTCI3jGmOm0JJFu/BMAbqxpaSuka4S3hV9E6K5aWBUsDM1SGFExkIxHblnsI8sls43xP61DHorYT+K0F+GFA==
   dependencies:
     azure-devops-node-api "^7.2.0"
     chalk "^2.4.2"
