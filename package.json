@@ -2,7 +2,7 @@
 	"name": "amethyst-theme",
 	"displayName": "Amethyst Themes",
 	"description": "A set of purple light and dark themes",
-	"version": "4.0.2",
+	"version": "4.0.3",
 	"publisher": "eamodio",
 	"engines": {
 		"vscode": "^1.45.0"
