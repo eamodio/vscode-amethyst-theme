@@ -94,6 +94,8 @@
 		"notifications.foreground": "#f2e8f7d0",
 		"notificationToast.border": "#5a068e80",
 		"panel.border": "#5a068e60",
+		"panelSectionHeader.border": "#5a068e60",
+		"panelSectionHeader.foreground": "#f2e8f7d0",
 		"panelTitle.activeBorder": "#b742ff80",
 		"panelTitle.inactiveForeground": "#f2e8f750",
 		"panelTitle.activeForeground": "#f2e8f7c0",

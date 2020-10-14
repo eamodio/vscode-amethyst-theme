@@ -99,6 +99,7 @@
 		"panel.background": "#25013c",
 		"panel.border": "#160024",
 		"panel.dropBorder": "#9039c7",
+		"panelSectionHeader.background": "#4d057b",
 		"panelTitle.activeBorder": "#7d16bf",
 		"panelTitle.inactiveForeground": "#e7e7e750",
 		"panelTitle.activeForeground": "#e7e7e7",
