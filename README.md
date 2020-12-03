@@ -6,19 +6,19 @@ A set of purple light and dark themes
 
 ## Amethyst Dark
 
-![Amethyst Dark preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview-dark.png)
+![Amethyst Dark preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/main/images/preview-dark.png)
 
 ## Amethyst Light
 
-![Amethyst Light preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview-light.png)
+![Amethyst Light preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/main/images/preview-light.png)
 
 ## Amethyst Dark (Higher Contrast)
 
-![Amethyst Dark (Higher Contrast) preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview-dark-hc.png)
+![Amethyst Dark (Higher Contrast) preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/main/images/preview-dark-hc.png)
 
 ## Amethyst
 
-![Amethyst preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/master/images/preview.png)
+![Amethyst preview](https://raw.githubusercontent.com/eamodio/vscode-amethyst-theme/main/images/preview.png)
 
 ## Known Issues
 

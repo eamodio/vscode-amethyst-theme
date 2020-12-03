@@ -23,7 +23,7 @@
 		"theme": "dark"
 	},
 	"icon": "images/icon.png",
-	"homepage": "https://github.com/eamodio/vscode-amethyst-theme/blob/master/README.md",
+	"homepage": "https://github.com/eamodio/vscode-amethyst-theme/#readme",
 	"bugs": {
 		"url": "https://github.com/eamodio/vscode-amethyst-theme/issues"
 	},
