@@ -124,6 +124,7 @@
 		"pickerGroup.border": "#5a068e80",
 		"pickerGroup.foreground": "#b884d2",
 		"quickInput.background": "#1a0033",
+		"sash.hoverBorder": "#5a068e",
 		"settings.checkboxBackground": "#1a0033",
 		"settings.checkboxBorder": "#f2e8f720",
 		"settings.dropdownBackground": "#1a0033",

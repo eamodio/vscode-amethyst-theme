@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 
 - Adds notebook colors to all the themes
+- Adds sash color to all the themes
 
 ## [4.0.4] - 2020-10-14
 
