@@ -5,7 +5,7 @@
 	"version": "4.0.4",
 	"publisher": "eamodio",
 	"engines": {
-		"vscode": "^1.45.0"
+		"vscode": "^1.51.0"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"categories": [
@@ -61,7 +61,7 @@
 		"pub": "git clean -df && vsce publish"
 	},
 	"devDependencies": {
-		"prettier": "2.1.2",
+		"prettier": "2.2.1",
 		"vsce": "1.81.1"
 	}
 }
