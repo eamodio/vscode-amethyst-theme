@@ -73,6 +73,7 @@
 		"editorMarkerNavigationError.background": "#ff5a5a",
 		"editorMarkerNavigationWarning.background": "#5aac5a",
 		"editorOverviewRuler.border": "#120024",
+		"editorRuler.foreground": "#4d057b30",
 		"editorSuggestWidget.background": "#17002e",
 		"editorSuggestWidget.border": "#4d057b60",
 		"editorSuggestWidget.selectedBackground": "#4d057b80",
