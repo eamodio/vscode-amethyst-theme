@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- Adds diff editor border and missing fill colors to all the themes
+
+### Fixed
+
+- Fixes quick input focus color with VS Code 1.54
+
 ## [4.2.0] - 2021-02-08
 
 ### Added

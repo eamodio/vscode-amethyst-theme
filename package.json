@@ -5,7 +5,7 @@
 	"version": "4.2.0",
 	"publisher": "eamodio",
 	"engines": {
-		"vscode": "^1.51.0"
+		"vscode": "^1.54.0"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"categories": [
@@ -62,6 +62,6 @@
 	},
 	"devDependencies": {
 		"prettier": "2.2.1",
-		"vsce": "1.81.1"
+		"vsce": "1.85.1"
 	}
 }
