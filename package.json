@@ -2,10 +2,10 @@
 	"name": "amethyst-theme",
 	"displayName": "Amethyst Themes",
 	"description": "A set of purple light and dark themes",
-	"version": "4.3.0",
+	"version": "4.4.0",
 	"publisher": "eamodio",
 	"engines": {
-		"vscode": "^1.54.0"
+		"vscode": "^1.62.0"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"categories": [
@@ -61,7 +61,7 @@
 		"pub": "git clean -df && vsce publish"
 	},
 	"devDependencies": {
-		"prettier": "2.2.1",
-		"vsce": "1.85.1"
+		"prettier": "2.4.1",
+		"vsce": "2.2.0"
 	}
 }

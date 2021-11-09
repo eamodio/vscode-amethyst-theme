@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.4.0] - 2021-11-09
+
+### Added
+
+- Adds muted colors for editor bracket pair matching to all the themes
+- Adds inlay hint colors to all the themes
+
+### Changed
+
+- Minor other changes and polish
+
 ## [4.3.0] - 2021-03-04
 
 ### Added
