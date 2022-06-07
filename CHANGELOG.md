@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+
+### Changed
+
+- Changes the menu separator colors to match the menu borders to better fit with VS Code menu changes
+
 ## [4.4.3] - 2021-11-09
 
 ### Fixed
