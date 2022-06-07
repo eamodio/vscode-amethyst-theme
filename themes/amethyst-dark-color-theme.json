@@ -30,6 +30,8 @@
 		"breadcrumbPicker.background": "#120024",
 		"button.background": "#7d16bf",
 		"button.hoverBackground": "#9039c7",
+		"commandCenter.background": "#4d057b20",
+		"commandCenter.border": "#4d057b20",
 		"contrastBorder": "#120024",
 		"debugToolBar.background": "#25013c",
 		"diffEditor.border": "#4d057b60",

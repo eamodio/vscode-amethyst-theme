@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Added
+
+- Adds colors for the new command bar
+
 ### Changed
 
 - Changes the menu separator colors to match the menu borders to better fit with VS Code menu changes
