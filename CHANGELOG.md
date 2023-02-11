@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+## [4.6.0] - 2023-02-11
+
 ### Added
 
 - Adds colors for the editor sticky header
