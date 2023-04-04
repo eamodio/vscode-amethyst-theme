@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for Amethyst Theme
 title: ''
-labels: 'type: feature'
+labels: feature, triage
 assignees: ''
 ---
 

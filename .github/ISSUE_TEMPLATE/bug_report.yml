@@ -1,0 +1,39 @@
+name: Bug report
+description: Create a report to help Amethyst Theme improve
+labels: ['potential-bug', 'triage']
+body:
+    - type: textarea
+      attributes:
+          label: Description
+          description: Please provide a concise description of what you're experiencing, what you expected to happen, and any steps to reproduce the behavior.
+          placeholder: |
+              1. In this environment...
+              2. With this config...
+              3. Run '...'
+              4. See error...
+      validations:
+          required: true
+    - type: input
+      id: Amethyst Theme
+      attributes:
+          label: Amethyst Theme Version
+          description: What version of Amethyst Theme are you using?
+          placeholder: 12.0.0
+      validations:
+          required: true
+    - type: textarea
+      id: vscode
+      attributes:
+          label: VS Code Version
+          description: What version of VS Code are you using? Copy from Help -> About
+          placeholder: |
+              Version: 1.70.0-insider (user setup)
+              Commit: 1cd90cceddf3c413673963ab6f154d2ff294b17c
+              Date: 2022-07-15T05:16:39.110Z
+              Electron: 18.3.5
+              Chromium: 100.0.4896.160
+              Node.js: 16.13.2
+              V8: 10.0.139.17-electron.0
+              OS: Windows_NT x64 10.0.22622
+      validations:
+          required: false

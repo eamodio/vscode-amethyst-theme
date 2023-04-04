@@ -3,26 +3,15 @@
 	"displayName": "Amethyst Themes",
 	"description": "A set of purple light and dark themes",
 	"version": "4.6.2",
-	"publisher": "amodio",
 	"engines": {
 		"vscode": "^1.62.0"
 	},
 	"license": "SEE LICENSE IN LICENSE",
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"theme",
-		"purple",
-		"violet",
-		"dark",
-		"light"
-	],
-	"galleryBanner": {
-		"color": "#7d16bf",
-		"theme": "dark"
+	"publisher": "amodio",
+	"author": {
+		"name": "Eric Amodio",
+		"email": "eamodio@gmail.com"
 	},
-	"icon": "images/icon.png",
 	"homepage": "https://github.com/eamodio/vscode-amethyst-theme/#readme",
 	"bugs": {
 		"url": "https://github.com/eamodio/vscode-amethyst-theme/issues"
@@ -31,6 +20,24 @@
 		"type": "git",
 		"url": "https://github.com/eamodio/vscode-amethyst-theme.git"
 	},
+	"icon": "images/icon.png",
+	"sponsor": {
+		"url": "https://github.com/sponsors/eamodio"
+	},
+	"categories": [
+		"Themes"
+	],
+	"galleryBanner": {
+		"color": "#7d16bf",
+		"theme": "dark"
+	},
+	"keywords": [
+		"theme",
+		"purple",
+		"violet",
+		"dark",
+		"light"
+	],
 	"contributes": {
 		"themes": [
 			{
@@ -56,12 +63,17 @@
 		]
 	},
 	"scripts": {
-		"pack": "git clean -df && vsce package",
-		"pretty": "prettier --config .prettierrc --loglevel warn --write \"./**/*.{js,md,json}\"",
-		"pub": "git clean -df && vsce publish"
+		"clean": "git clean -df",
+		"package": "vsce package --yarn",
+		"package-pre": "yarn run patch-pre && yarn run package --pre-release",
+		"patch-pre": "node ./scripts/applyPreReleasePatch.js",
+		"pretty": "prettier --config .prettierrc --loglevel warn --write .",
+		"pub": "vsce publish --yarn",
+		"pub-pre": "vsce publish --yarn --pre-release",
+		"vscode:prepublish": "yarn run clean"
 	},
 	"devDependencies": {
-		"@vscode/vsce": "2.17.0",
-		"prettier": "2.8.4"
+		"@vscode/vsce": "2.18.0",
+		"prettier": "2.8.7"
 	}
 }
