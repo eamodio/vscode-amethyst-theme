@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Changed
+
+- Brightens GitLens inline blame color slightly
+
 ## [4.6.2] - 2023-02-11
 
 ### Changed

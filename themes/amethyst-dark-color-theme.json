@@ -31,7 +31,7 @@
 		"button.background": "#7d16bf",
 		"button.hoverBackground": "#9039c7",
 		"checkbox.background": "#17002e",
-		"checkbox.border": "#e9d9f240",
+		"checkbox.border": "#e9d9f245",
 		"commandCenter.background": "#4d057b20",
 		"commandCenter.border": "#4d057b20",
 		"contrastBorder": "#120024",
@@ -255,7 +255,7 @@
 		// "gitlens.gutterBackgroundColor": "#25013c",
 		"gitlens.gutterForegroundColor": "#e9d9f2d0",
 		"gitlens.gutterUncommittedForegroundColor": "#e9d9f2",
-		"gitlens.trailingLineForegroundColor": "#e9d9f240",
+		"gitlens.trailingLineForegroundColor": "#e9d9f245",
 		"gitlens.lineHighlightBackgroundColor": "#25013Cb0",
 		"gitlens.lineHighlightOverviewRulerColor": "#4d057b"
 	}
