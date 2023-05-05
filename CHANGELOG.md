@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+## [4.7.0] - 2023-05-05
+
 ### Added
 
 - Adds scrollbar shadow color to **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
