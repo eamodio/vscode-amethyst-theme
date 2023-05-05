@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 - Brightens the focus border color for **Amethyst Dark** themes
 
+### Fixed
+
+- Fixes input option border & hover colors for **Amethyst Dark** themes
+
 ## [4.7.1] - 2023-05-05
 
 ### Fixed
