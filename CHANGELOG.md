@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+## [4.7.2] - 2023-05-05
+
 ### Changed
 
 - Brightens the focus border color for **Amethyst Dark** themes
