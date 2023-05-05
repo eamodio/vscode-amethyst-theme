@@ -6,23 +6,27 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Changed
+
+- Brightens the focus border color for **Amethyst Dark** themes
+
 ## [4.7.1] - 2023-05-05
 
 ### Fixed
 
-- Fixes editor tab border & hover colors
+- Fixes editor tab border & hover colors for **Amethyst Dark** themes
 
 ## [4.7.0] - 2023-05-05
 
 ### Added
 
-- Adds scrollbar shadow color to **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+- Adds scrollbar shadow color to **Amethyst Dark** themes
 
 ### Changed
 
-- Changes Quick Input title color to match the background color
-- Brightens Quick Input background color slightly
-- Brightens GitLens inline blame color slightly
+- Changes Quick Input title color to match the background color for **Amethyst Dark** themes
+- Brightens Quick Input background color slightly for **Amethyst Dark** themes
+- Brightens GitLens inline blame color slightly for **Amethyst Dark** themes
 
 ## [4.6.2] - 2023-02-11
 
