@@ -6,8 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Added
+
+- Adds scrollbar shadow color to **Amethyst Dark** and **Amethyst Dark (Higher Contrast)** themes
+
 ### Changed
 
+- Changes Quick Input title color to match the background color
+- Brightens Quick Input background color slightly
 - Brightens GitLens inline blame color slightly
 
 ## [4.6.2] - 2023-02-11
