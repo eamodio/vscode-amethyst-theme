@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Fixed
+
+- Fixes editor tab border & hover colors
+
 ## [4.7.0] - 2023-05-05
 
 ### Added
