@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 
 - Adds new toolbar active and hover colors for **Amethyst Dark** themes
+- Adds unchanged region colors in the diff editor for all themes
 
 ### Changed
 
