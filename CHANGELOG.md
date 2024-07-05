@@ -10,10 +10,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 - Adds new toolbar active and hover colors for **Amethyst Dark** themes
 - Adds unchanged region colors in the diff editor for all themes
+- Adds multi-diff editor colors for all themes
 
 ### Changed
 
 - Brightens the input option button active and hover colors for **Amethyst Dark** themes
+- Refines editor sticky header colors for all themes
+- Refines shadow colors for all themes
+- Refines button colors for all themes
 
 ## [4.7.2] - 2023-05-05
 

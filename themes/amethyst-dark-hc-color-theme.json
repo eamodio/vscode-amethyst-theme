@@ -5,13 +5,15 @@
 	"include": "./amethyst-dark-color-theme.json",
 
 	// #25013c +3% lum -> #2f014b
-	// #180030 +1.5% lum ->  #1c0038
+	// #1a0033 +2% lum -> #20003d
+	// #180030 +1.5% lum -> #1c0038
 	// #e9d9f2 +4% lum -> #f2e8f7
 	// #4d057b +4% lum -> #5a068e
 	// #280245 +3% lum -> #310354
 	// #b133ff +3% lum > #b742ff
 	// #9e85ad +4% lum -> #a891b6
 	// #2f014b +3% lum -> #38015a
+	// #7d16bf +3% lum -> #8818cd
 
 	"colors": {
 		"activityBar.activeBorder": "#b742ffc0",
@@ -22,13 +24,16 @@
 		"activityBarBadge.foreground": "#f2e8f7",
 		"breadcrumb.activeSelectionForeground": "#f2e8f7",
 		"breadcrumb.focusForeground": "#f2e8f7",
-		"breadcrumb.foreground": "#f2e8f7",
+		"breadcrumb.foreground": "#f2e8f7a0",
+		"button.secondaryBackground": "#5a068e80",
+		"button.secondaryHoverBackground": "#5a068e",
 		"checkbox.background": "#1c0038",
 		"checkbox.border": "#e9d9f240",
 		"debugToolBar.background": "#2f014b",
 		"diffEditor.border": "#5a068e60",
 		"diffEditor.diagonalFill": "#f2e8f725",
-		"diffEditor.unchangedRegionBackground": "#5a068e30",
+		"diffEditor.unchangedRegionBackground": "#20003d",
+		"diffEditor.unchangedRegionShadow": "#8818cd",
 		"diffEditor.unchangedRegionForeground": "#f2e8f7d0",
 		"dropdown.background": "#1c0038",
 		"dropdown.border": "#f2e8f716",
@@ -70,9 +75,10 @@
 		"editorLineNumber.foreground": "#a891b6a0",
 		"editorMarkerNavigation.background": "#2f014b",
 		"editorRuler.foreground": "#5a068e30",
-		"editorStickyScroll.background": "#25013c",
+		"editorStickyScroll.background": "#20003d",
 		"editorStickyScrollHover.background": "#5a068e60",
-		"peekViewEditorStickyScroll.background": "#25013c",
+		"editorStickyScroll.border": "#5a068ea0",
+		"editorStickyScroll.shadow": "#5a068e30",
 		"editorSuggestWidget.foreground": "#f2e8f7d0",
 		"editorSuggestWidget.background": "#1c0038",
 		"editorSuggestWidget.border": "#5a068e60",
@@ -90,9 +96,9 @@
 		"input.border": "#f2e8f716",
 		"input.foreground": "#f2e8f7",
 		"input.placeholderForeground": "#f2e8f750",
-		"inputOption.activeBackground": "#7d16bf80",
-		"inputOption.activeBorder": "#7d16bfb0",
-		"inputOption.hoverBackground": "#7d16bf60",
+		"inputOption.activeBackground": "#8818cd80",
+		"inputOption.activeBorder": "#8818cdb0",
+		"inputOption.hoverBackground": "#8818cd60",
 		"list.activeSelectionBackground": "#5a068e",
 		"list.activeSelectionForeground": "#f2e8f7",
 		"list.deemphasizedForeground": "#f2e8f750",
@@ -116,6 +122,8 @@
 		"menubar.selectionBackground": "#5a068e80",
 		"menubar.selectionBorder": "#5a068e80",
 		"menubar.selectionForeground": "#f2e8f7",
+		"multiDiffEditor.border": "#5a068eb0",
+		"multiDiffEditor.headerBackground": "#20003d",
 		"notebook.cellBorderColor": "#5a068ea6",
 		"notebook.cellHoverBackground": "#5a068e40",
 		"notebook.cellStatusBarItemHoverBackground": "#5a068e60",
@@ -138,6 +146,7 @@
 		"panelTitle.activeForeground": "#f2e8f7c0",
 		"panelTitle.inactiveForeground": "#f2e8f750",
 		"peekView.border": "#5a068e80",
+		"peekViewEditorStickyScroll.background": "#20003d",
 		"peekViewTitle.background": "#2f014b",
 		"peekViewTitleDescription.foreground": "#f2e8f775",
 		"peekViewTitleLabel.foreground": "#f2e8f7",
@@ -158,7 +167,7 @@
 		"quickInputList.focusForeground": "#f2e8f7",
 		"quickInputTitle.background": "#1c0038",
 		"sash.hoverBorder": "#5a068e",
-		"scrollbar.shadow": "#2f014b",
+		"scrollbar.shadow": "#5a068e",
 		"settings.checkboxBackground": "#1c0038",
 		"settings.checkboxBorder": "#f2e8f720",
 		"settings.dropdownBackground": "#1c0038",
@@ -185,6 +194,7 @@
 		"tab.activeBorder": "#b742ffc0",
 		"tab.activeForeground": "#f2e8f7",
 		"tab.activeModifiedBorder": "#C88670c0",
+		"tab.dragAndDropBorder": "#b742ff",
 		"tab.hoverBackground": "#2f014b50",
 		"tab.hoverBorder": "#b742ffc0",
 		"tab.hoverForeground": "#f2e8f7",
@@ -203,10 +213,11 @@
 		"textBlockQuote.background": "#d4d4d41a",
 		"textBlockQuote.border": "#d4d4d440",
 		"textCodeBlock.background": "#d4d4d41a",
-		"toolbar.activeBackground": "#7d16bfa0",
-		"toolbar.hoverBackground": "#7d16bf80",
+		"toolbar.activeBackground": "#8818cda0",
+		"toolbar.hoverBackground": "#8818cd80",
 		"tree.indentGuidesStroke": "#5a068e60",
-		"widget.shadow": "#00000040",
+		"widget.border": "#5a068ea0",
+		"widget.shadow": "#5a068e30",
 		"window.activeBorder": "#310354",
 		"window.inactiveBorder": "#310354",
 		// "gitlens.gutterBackgroundColor": "#2f014b",
