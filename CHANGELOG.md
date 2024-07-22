@@ -442,3 +442,46 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Added
 
 - Initial release
+
+[unreleased]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.7.2...HEAD
+[4.7.2]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.7.1...v4.7.2
+[4.7.1]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.7.0...v4.7.1
+[4.7.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.6.0...v4.7.0
+[4.6.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.5.0...v4.6.0
+[4.5.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.4.0...v4.5.0
+[4.4.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.3.0...v4.4.0
+[4.3.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.2.0...v4.3.0
+[4.2.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.1.0...v4.2.0
+[4.1.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.0.0...v4.1.0
+[4.0.4]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.0.3...v4.0.4
+[4.0.3]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.0.2...v4.0.3
+[4.0.2]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.0.1...v4.0.2
+[4.0.1]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.0.0...v4.0.1
+[4.0.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v3.0.0...v4.0.0
+[3.0.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.5...v3.0.0
+[2.6.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.5.0...v2.6.0
+[2.5.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.4.0...v2.5.0
+[2.4.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.3.0...v2.4.0
+[2.3.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.2.0...v2.3.0
+[2.2.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.1.0...v2.2.0
+[2.1.1]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.1.0...v2.1.1
+[2.1.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.0...v2.1.0
+[2.0.8]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.7...v2.0.8
+[2.0.7]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.6...v2.0.7
+[2.0.6]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.5...v2.0.6
+[2.0.5]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.4...v2.0.5
+[2.0.4]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.3...v2.0.4
+[2.0.3]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.2...v2.0.3
+[2.0.2]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.1...v2.0.2
+[2.0.1]: https://github.com/eamodio/vscode-amethyst-theme/compare/v2.0.0...v2.0.1
+[2.0.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v1.0.0...v2.0.0
+[1.1.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v1.0.0...v1.1.0
+[1.0.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v0.3.1...v1.0.0
+[0.5.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v0.4.0...v0.5.0
+[0.4.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v0.3.1...v0.4.0
+[0.3.1]: https://github.com/eamodio/vscode-amethyst-theme/compare/v0.3.0...v0.3.1
+[0.3.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v0.2.1...v0.3.0
+[0.2.1]: https://github.com/eamodio/vscode-amethyst-theme/compare/v0.1.0...v0.2.1
+[0.1.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v0.0.2...v0.1.0
+[0.0.2]: https://github.com/eamodio/vscode-amethyst-theme/compare/v0.0.1...v0.0.2
+[0.0.1]: https://github.com/eamodio/vscode-amethyst-theme/releases/tag/v0.0.1
