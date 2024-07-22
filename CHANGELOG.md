@@ -15,6 +15,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 ### Changed
 
 - Brightens the input option button active and hover colors for **Amethyst Dark** themes
+- Brightens the scrollbar slider background color for **Amethyst Dark** themes
 - Refines editor sticky header colors for all themes
 - Refines shadow colors for all themes
 - Refines button colors for all themes
