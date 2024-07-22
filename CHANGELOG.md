@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+## [4.8.0] - 2024-07-22
+
 ### Added
 
 - Adds new toolbar active and hover colors for **Amethyst Dark** themes
@@ -443,7 +445,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 - Initial release
 
-[unreleased]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.7.2...HEAD
+[unreleased]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.8.0...HEAD
+[4.8.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.7.2...v4.8.0
 [4.7.2]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.7.1...v4.7.2
 [4.7.1]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.7.0...v4.7.1
 [4.7.0]: https://github.com/eamodio/vscode-amethyst-theme/compare/v4.6.0...v4.7.0
