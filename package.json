@@ -74,7 +74,7 @@
 		"vscode:prepublish": "yarn run clean"
 	},
 	"devDependencies": {
-		"@vscode/vsce": "2.29.0",
-		"prettier": "3.0.1"
+		"@vscode/vsce": "3.1.1",
+		"prettier": "3.3.3"
 	}
 }
