@@ -210,6 +210,7 @@
 		"tab.unfocusedInactiveModifiedBorder": "#C8867060",
 		"terminal.foreground": "#f2e8f7",
 		"terminalCursor.foreground": "#b742ff",
+		"terminalStickyScrollHover.background": "#5a068e60",
 		"textBlockQuote.background": "#d4d4d41a",
 		"textBlockQuote.border": "#d4d4d440",
 		"textCodeBlock.background": "#d4d4d41a",

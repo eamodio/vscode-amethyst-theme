@@ -193,6 +193,7 @@
 		"tab.unfocusedActiveForeground": "#ffffff80",
 		"terminal.background": "#160024",
 		"terminal.foreground": "#d4d4d4",
+		"terminalStickyScrollHover.background": "#4d057b60",
 		"textBlockQuote.background": "#d4d4d41a",
 		"textBlockQuote.border": "#d4d4d440",
 		"textCodeBlock.background": "#d4d4d41a",

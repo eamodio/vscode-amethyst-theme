@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ## [Unreleased]
 
+### Added
+
+- Adds terminal sticky header colors for all themes
+
 ## [4.8.0] - 2024-07-22
 
 ### Added

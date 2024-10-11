@@ -261,6 +261,7 @@
 		"terminal.background": "#120024",
 		"terminal.foreground": "#e9d9f2",
 		"terminalCursor.foreground": "#b133ff",
+		"terminalStickyScrollHover.background": "#4d057b60",
 		"textBlockQuote.background": "#d4d4d41a",
 		"textBlockQuote.border": "#d4d4d440",
 		"textCodeBlock.background": "#d4d4d41a",
