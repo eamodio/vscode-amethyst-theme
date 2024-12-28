@@ -1,27 +1,34 @@
-const { exec } = require('child_process');
-const fs = require('fs');
-const readline = require('readline');
-const path = require('path');
+//@ts-check
+import { exec } from 'child_process';
+import { readFileSync, writeFileSync } from 'fs';
+import { createInterface } from 'readline';
+import { fileURLToPath } from 'url';
+import path from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const versionRegex = /^\d{1,4}\.\d{1,4}\.\d{1,4}$/;
 
 const changelogPath = path.join(__dirname, '..', 'CHANGELOG.md');
 console.log(changelogPath);
-let data = fs.readFileSync(changelogPath, 'utf8');
+let data = readFileSync(changelogPath, 'utf8');
 
 // Find the current version number
 const match = /\[unreleased\]: https:\/\/github\.com\/eamodio\/vscode-amethyst-theme\/compare\/v(.+)\.\.\.HEAD/.exec(
 	data,
 );
-const currentVersion = match?.[1];
+let currentVersion = match?.[1];
 if (currentVersion == null || versionRegex.test(currentVersion) === false) {
 	console.error('Unable to find current version number.');
-	return;
+	currentVersion = '0.0.0';
 }
 
 // Create readline interface for getting input from user
-const rl = readline.createInterface({
+const rl = createInterface({
+	// @ts-ignore
 	input: process.stdin,
+	// @ts-ignore
 	output: process.stdout,
 });
 
@@ -43,18 +50,23 @@ rl.question(`Enter the new version number (format x.x.x, current is ${currentVer
 	const dd = String(today.getDate()).padStart(2, '0');
 
 	const newVersionHeader = `## [Unreleased]\n\n## [${version}] - ${yyyy}-${mm}-${dd}`;
-	const newVersionLink = `[${version}]: https://github.com/eamodio/vscode-amethyst-theme/compare/v${currentVersion}...v${version}`;
+	const newVersionLink = `[${version}]: https://github.com/eamodio/vscode-amethyst-theme/compare/v${currentVersion}...gitkraken:v${version}`;
 
 	// Add the new version header below the ## [Unreleased] header
 	data = data.replace('## [Unreleased]', newVersionHeader);
 
-	const unreleasedLink = match[0].replace(/\/compare\/v(.+?)\.\.\.HEAD/, `/compare/v${version}...HEAD`);
+	if (match == null) {
+		// Add the [unreleased]: line
+		data += `\n[unreleased]: https://github.com/eamodio/vscode-amethyst-theme/compare/v${version}...HEAD`;
+	} else {
+		const unreleasedLink = match[0].replace(/\/compare\/v(.+?)\.\.\.HEAD/, `/compare/v${version}...HEAD`);
 
-	// Update the [unreleased]: line
-	data = data.replace(match[0], `${unreleasedLink}\n${newVersionLink}`);
+		// Update the [unreleased]: line
+		data = data.replace(match[0], `${unreleasedLink}\n${newVersionLink}`);
+	}
 
 	// Writing the updated version data to CHANGELOG
-	fs.writeFileSync(changelogPath, data);
+	writeFileSync(changelogPath, data);
 
 	// Stage CHANGELOG
 	exec('git add CHANGELOG.md', err => {
@@ -63,10 +75,10 @@ rl.question(`Enter the new version number (format x.x.x, current is ${currentVer
 			return;
 		}
 
-		// Call 'yarn version' to commit and create the tag
-		exec(`yarn version --new-version ${version}`, err => {
+		// Call 'pnpm version' to commit and create the tag
+		exec(`pnpm version ${version} -m "Bumps to v%s" -f`, err => {
 			if (err) {
-				console.error(`'yarn version' failed: ${err}`);
+				console.error(`'pnpm version' failed: ${err}`);
 				return;
 			}
 

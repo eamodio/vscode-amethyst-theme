@@ -19,20 +19,20 @@ git clone https://github.com/eamodio/vscode-amethyst-theme.git
 Prerequisites
 
 - [Git](https://git-scm.com/)
-- [NodeJS](https://nodejs.org/), `>= 20`
-- [yarn](https://yarnpkg.com/), `>= 1.22.22`
+- [NodeJS](https://nodejs.org/), `>= v22.11.0`
+- [pnpm](https://pnpm.io/), `>= 9.x` (install using [corepack](https://nodejs.org/docs/latest-v20.x/api/corepack.html))
 
 ### Dependencies
 
 From a terminal, where you have cloned the repository, execute the following command to install the required dependencies:
 
 ```
-yarn
+pnpm install
 ```
 
 ### Formatting
 
-This project uses [prettier](https://prettier.io/) for code formatting. You can run prettier across the code by calling `yarn run pretty` from a terminal.
+This project uses [prettier](https://prettier.io/) for code formatting. You can run prettier across the code by calling `pnpm run pretty` from a terminal.
 
 To format the code as you make changes you can install the [Prettier - Code formatter](https://marketplace.visualstudio.com/items/esbenp.prettier-vscode) extension.
 
@@ -47,7 +47,7 @@ Add the following to your User Settings to run prettier:
 To generate a VSIX (installation package) run the following from a terminal:
 
 ```
-yarn run pack
+pnpm run package
 ```
 
 ### Debugging
@@ -70,13 +70,13 @@ Use the [prep-release](scripts/prep-release.js) script to prepare a new release.
 
 1. Ensure you are on the `main` branch and have a clean working tree
 2. Ensure the [CHANGELOG.md](CHANGELOG.md) has been updated with the release notes
-3. Run `yarn run prep-release` and enter the desired `{major}.{minor}.{patch}` version when prompted
+3. Run `pnpm run prep-release` and enter the desired `{major}.{minor}.{patch}` version when prompted
 4. Review the `Bumps to v{major}.{minor}.{patch}` commit
 5. Run `git push --follow-tags` to push the commit and tag
 
 Pushing the `v{major}.{minor}.{patch}` tag will trigger the [Publish Stable workflow](.github/workflows/cd-stable.yml) to automatically package the extension, create a [GitHub release](https://github.com/eamodio/vscode-amethyst-theme/releases/latest), and deploy it to the [VS Marketplace](https://marketplace.visualstudio.com/items?itemName=amodio.amethyst-theme).
 
-If the action fails and retries are unsuccessful, the VSIX can be built locally with `yarn package` and uploaded manually to the marketplace. A GitHub release can also be [created manually](https://github.com/eamodio/vscode-amethyst-theme/releases/new) using `v{major}.{minor}.{patch}` as the title and the notes from the [CHANGELOG.md](CHANGELOG.md) with the VSIX attached.
+If the action fails and retries are unsuccessful, the VSIX can be built locally with `pnpm run package` and uploaded manually to the marketplace. A GitHub release can also be [created manually](https://github.com/eamodio/vscode-amethyst-theme/releases/new) using `v{major}.{minor}.{patch}` as the title and the notes from the [CHANGELOG.md](CHANGELOG.md) with the VSIX attached.
 
 ### Pre-releases
 

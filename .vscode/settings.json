@@ -1,6 +1,6 @@
 {
 	"files.insertFinalNewline": true,
 	"files.trimTrailingWhitespace": true,
-	"npm.packageManager": "yarn",
+	"npm.packageManager": "pnpm",
 	"prettier.requireConfig": true
 }

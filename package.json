@@ -64,17 +64,18 @@
 	},
 	"scripts": {
 		"clean": "git clean -df",
-		"package": "vsce package --yarn",
-		"package-pre": "yarn run patch-pre && yarn run package --pre-release",
-		"patch-pre": "node ./scripts/applyPreReleasePatch.js",
-		"prep-release": "node ./scripts/prep-release.js",
+		"package": "vsce package --no-dependencies",
+		"package-pre": "pnpm run patch-pre && pnpm run package --pre-release",
+		"patch-pre": "node ./scripts/applyPreReleasePatch.mjs",
+		"prep-release": "node ./scripts/prep-release.mjs",
 		"pretty": "prettier --config .prettierrc --loglevel warn --write .",
-		"pub": "vsce publish --yarn",
-		"pub-pre": "vsce publish --yarn --pre-release",
-		"vscode:prepublish": "yarn run clean"
+		"pub": "vsce publish --no-dependencies",
+		"pub-pre": "vsce publish --no-dependencies --pre-release",
+		"vscode:prepublish": "pnpm run clean"
 	},
 	"devDependencies": {
-		"@vscode/vsce": "3.1.1",
-		"prettier": "3.3.3"
-	}
+		"@vscode/vsce": "3.2.1",
+		"prettier": "3.4.2"
+	},
+	"packageManager": "pnpm@9.15.1"
 }

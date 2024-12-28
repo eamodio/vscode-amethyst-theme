@@ -30,6 +30,7 @@ CODE_OF_CONDUCT.md
 code-syntax.js
 CONTRIBUTING.md
 README.pre.md
+pnpm-lock.yaml
 tsconfig*.json
 tsconfig*.tsbuildinfo
 webpack.config*.js
