@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 - Adds terminal sticky header colors for all themes
 - Increases the contrast of the quick input for dark themes
+- Increases the contrast of the menus for dark themes
 
 ## [4.8.0] - 2024-07-22
 
